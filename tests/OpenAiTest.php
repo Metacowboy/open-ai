@@ -3,7 +3,7 @@
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai = new OpenAi('OPEN-AI-KEY');
+$open_ai = new OpenAi('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');
 
 it('should handle simple completion using the new endpoint', function () use ($open_ai) {
     $result = $open_ai->completion([
